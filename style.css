@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+}
+.menu {
+	background: yellowgreen;
+	padding: 9px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+.header-area  {
+	background-image: url(img/bg.jpg);
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
+
+.header-overlay {
+	background: #00000075;
+	height: 521px;
+}
+.header-area h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: 20%;
+	font-size: 60px;
+	color: yellowgreen;
+	font-weight: bold;
+}
+h2 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.about {
+	padding: 10px 0 50px 0;
+	background: #cfe1ab;
+	overflow: hidden;
+}
+.about-img {
+	float: left;
+	width: 30%;
+	margin-left: 217px;
+}
+.about-title {
+    margin-right: 117px;
+    text-align: justify;
+    width: 83%;
+  }
+  .box {
+	float: left;
+	width: 20%;
+	margin: 12px;
+	text-align: justify;
+	background: #7ba22c;
+	padding: 20px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+}
+.box:hover {
+	background: #fff;
+	color: yellowgreen;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	font-weight: bold;
+}
+.box:hover h3 {
+	color: #871bf2;
+	font-size: 20px;
+}
+.blog-area{
+	background: yellowgreen;
+	overflow: hidden;
+	width: 100%;
+}
+.item {
+	width: 20%;
+	float: left;
+	margin: 30px 85px 30px 56px;
+	text-align: justify;
+	border: 18px solid aliceblue;
+	overflow: scroll;
+	background: #85b328;
+	height: 230px;
+}
+.contact {
+	text-align: center;
+	background: #dcf4aa;
+	overflow: hidden;
+	padding-bottom: 68px;
+}
+  input {
+    padding: 10px;
+    background: yellowgreen;
+    font-size: 18px;
+  }
+  input:focus {
+    background: #33afd5;
+  }
+  button {
+	padding: 10px 30px;
+	font-weight: bold;
+	font-size: 15px;
+}
+  footer {
+	background: yellowgreen;
+	overflow: hidden;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
